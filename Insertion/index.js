@@ -1,5 +1,5 @@
 
-let arr = [8,0,2,4,1,3,6]
+// let arr = [8,0,2,4,1,3,6]
 function insertionSort(arr) {
   for (let i = 1; i < arr.length; i++) {
     for (let j = i; j > 0; j--) {
@@ -17,6 +17,6 @@ function insertionSort(arr) {
 }
 
 
-console.log(insertionSort([8,0,2,4,1,3,6]))
+console.log(insertionSort([8,0,2,1,3,6]))
 
 // console.log(arr)

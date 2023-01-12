@@ -16,6 +16,7 @@ function selectionSort(arr,N){
     
 }
 
+
 selectionSort(arr,N)
 
 function swap(arr,j,i){
